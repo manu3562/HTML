@@ -1,0 +1,22 @@
+background
+{
+    background-color: rgb(22, 196, 140)
+}
+h2
+{
+ background-color: rgb(220, 15, 227);
+ background-color: green;
+ color: rgb(222, 21, 21);
+}
+.chitti{
+    background-color: yellow !important ;
+    color:blue
+}
+#x{
+    background-color: aqua;
+    color: black;
+}
+#bujji{
+    background-color: red;
+    color: rgb(106, 11, 216);
+}
