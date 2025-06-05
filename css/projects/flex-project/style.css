@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(221, 100%, 96%);
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    display: flex;
+    height: 60vh;
+    width: 40vw;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.left{
+   width: 50%;
+   color: white;
+    z-index: 2;
+   background: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+
+}
+.right{
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.marks{
+    display: flex;
+    justify-content: space-between;
+}
+.marks>div{
+  display: flex;
+  gap: 3px;
+}
+.box
+{
+     height: 120px;
+    width: 120px;
+    z-index: 1;
+    /*position: fixed;*/
+    background-color:  hsla(259, 79%, 33%, 0.961);
+    border-radius: 60px;
+    color: white;
+     display: flex;
+   flex-direction: column;
+   align-items: center;
+   bottom: 50px;
+   justify-content: center;
+}
+.box2
+{
+    height: 35px;
+    width: 200px;
+    position: absolute;
+     background-color: rgba(248, 228, 228, 0.363); 
+     border-radius: 5px;
+     padding: 7px;
+     margin: 0;
+     bottom: 350px;
+}
+.box3
+{
+    height: 35px;
+    width: 200px;
+    position: absolute;
+     background-color: rgba(228, 228, 201, 0.363); 
+     border-radius: 5px;
+     padding: 7px;
+     margin: 0;
+     bottom: 310px;
+}
+.box4
+{
+    height: 35px;
+    width: 200px;
+    position: absolute;
+     background-color: rgba(160, 235, 179, 0.363); 
+     border-radius: 5px;
+     padding: 7px;
+     margin: 0;
+     bottom: 270px;
+}
+.box5
+{
+    height: 35px;
+    width: 200px;
+    position: absolute;
+     background-color: rgba(202, 193, 245, 0.363); 
+     border-radius: 5px;
+     padding: 7px;
+     margin: 0;
+     bottom: 230px;
+}
+.red
+{
+    color: red;
+}
+.yellow
+{
+    color: rgb(224, 172, 15);
+}
+.green
+{
+    color: green;
+}
+.blue
+{
+    color: blue;
+}
+.box6
+{
+    height: 35px;
+    width: 200px;
+    position: absolute;
+     background-color: white; 
+     border-radius: 5px;
+     padding: 0px;
+     margin: 0;
+     bottom: 400px;
+}
+.box7
+{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+     background-color: black; 
+     color: white;
+     border-radius: 50px;
+     padding: 0px;
+     margin: 0;
+     bottom: 160px;
+}
