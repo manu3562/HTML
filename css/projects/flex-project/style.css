@@ -62,29 +62,29 @@ body{
    bottom: 50px;
    justify-content: center;
 }
-.box2
+#box2
 {
     height: 35px;
     width: 200px;
-    position: absolute;
+    position: relative;
      background-color: rgba(248, 228, 228, 0.363); 
      border-radius: 5px;
      padding: 7px;
-     margin: 0;
-     bottom: 350px;
+     margin: 10;
+     bottom: 80px;
 }
-.box3
+#box3
 {
     height: 35px;
     width: 200px;
-    position: absolute;
+    position: relative;
      background-color: rgba(228, 228, 201, 0.363); 
      border-radius: 5px;
      padding: 7px;
-     margin: 0;
-     bottom: 310px;
+     margin: 10;
+     bottom: 70px;
 }
-.box4
+#box4
 {
     height: 35px;
     width: 200px;
@@ -95,7 +95,7 @@ body{
      margin: 0;
      bottom: 270px;
 }
-.box5
+#box5
 {
     height: 35px;
     width: 200px;
